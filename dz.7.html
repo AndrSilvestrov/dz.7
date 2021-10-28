@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big-circle{
+            width: 100px;
+            height: 100px;
+            background-color:lightblue;
+            border-radius: 50%;
+            position: relative;
+        }
+        .medium-circle{
+            width:25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color:yellow;
+            box-shadow: 0 0 40px green;
+            position: absolute;
+        }
+
+        .small-circle{
+            width: 10px;
+            height: 10px;
+            background-color: blue;
+            border-radius: 50%;
+            position: absolute;
+        }
+        
+               
+
+       .fixed{
+           width: 100px;
+           height: 100px;
+           background-color: seagreen;
+           display: inline-block;
+           position: fixed;
+           top: 0px;
+           right: 0px;
+       }        
+       
+        .circles{
+            height: 1000px;
+            display: inline-block;
+            margin-left: 200px;
+        }
+
+
+        .medium-circle-1{
+           left: 320px;
+           top: 30px;
+        }
+
+        .medium-circle-2{
+            left: 170px;
+            top: 60px;
+        }
+
+        .medium-circle-3{
+            left: 240px;
+        }
+
+        .small-circle-1{
+            top: 40px;
+        }
+
+        .small-circle-2{
+            left: 40px;
+            top: 20px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="circles">
+
+        <div class="big-circle"></div>
+        <div class="medium-circle medium-circle-1"></div>
+        <div class="medium-circle medium-circle-2"></div>
+        <div class="medium-circle medium-circle-3"><div class="small-circle small-circle-1"></div>
+        <div class="small-circle small-circle-2"></div>
+        </div></div>
+        
+    </div>
+    <div class="fixed"></div>
+</body>
+</html>
